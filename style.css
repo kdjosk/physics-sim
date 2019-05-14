@@ -1,0 +1,38 @@
+
+.container {
+  width: 1300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+canvas {
+  float:left;
+  display:block;
+  margin:20px auto;
+  border:1px solid #777;
+  height:800px;
+  width:1000px;
+}
+
+.controls {
+  float: left;
+  width: 200px;
+  margin-left: 50px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.controls > div {
+  border-bottom:1px solid #EEE;
+  padding:5px 0;
+}
+
+.controls label {
+  width:200px;
+  display:inline-block;
+}
+
+.controls input {
+  vertical-align:middle;
+}
